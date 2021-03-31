@@ -1,0 +1,52 @@
+body {
+    background-color:aliceblue;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #08d;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    text-shadow: 2px 1px 1px #00588F;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%;
+}
+
+#commonCSS {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+#commonCSS td, #commonCSS th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#commonCSS tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#commonCSS tr:hover{
+    background-color: #ddd;
+}
+
+#commonCSS tr:active {
+    background-color: #D6EFFF;
+}
+
+#commonCSS th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
